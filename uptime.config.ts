@@ -153,13 +153,6 @@ const workerConfig: WorkerConfig = {
 // const maintenances: MaintenanceConfig[] = []
 
 const maintenances: MaintenanceConfig[] = [
-  {
-    monitors: ['wsl', 'convert', 'pwd', 'seewopwd', 'exam', 'random'],
-    title: '台风停机公告',
-    body: '受台风影响，部分服务将暂停运行。\n\n预计恢复时间：另行通知\n\n受影响服务：WSL服务器、转换器、密码库、希沃密码、考试看板、随机图',
-    start: new Date().toISOString(),
-    color: 'red',
-  },
 ]
 
 // Don't edit this line
